@@ -1,0 +1,5 @@
+write something about Git-PUll vs Git-Push
+write something about Rebase
+write something about Revert vs Reset
+write somthing about Merge-Conflict
+write somthe about stash 
