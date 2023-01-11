@@ -16,3 +16,7 @@ A developer examines the history of the main branch using git log because of the
 The developer can not identify when the bug was introduced using git log so the developer executes a git bisect.
 Because the git history is clean, git bisect has a refined set of commits to compare when looking for the regression.
 The developer quickly finds the commit that introduced the bug and is able to act accordingly.
+The primary reason for rebasing is to maintain a linear project history.
+For example, consider a situation where the main branch has progressed since you started working on a feature branch.
+You want to get the latest updates to the main branch in your feature branch, but you want to keep your branch's history clean so it appears as if you've been working off the latest main branch.
+This gives the later benefit of a clean merge of your feature branch back into the main branch.
