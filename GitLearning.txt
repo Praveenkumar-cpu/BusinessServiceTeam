@@ -1,5 +1,7 @@
 write something about Git-PUll vs Git-Push
 write something about Rebase
 write something about Revert vs Reset
-write somthing about Merge-Conflict
-write somthe about stash 
+write something about Merge-Conflict
+write something about stash
+Rebase-Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+Rebasing is most useful and easily visualized in the context of a feature branching workflow.
