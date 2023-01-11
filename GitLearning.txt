@@ -3,3 +3,12 @@ write something about Rebase
 write something about Revert vs Reset
 write somthing about Merge-Conflict
 write somthe about stash 
+
+Revert :
+* It is the git command used to delete the commited files changes by,
+         git revert <commit no>
+
+Reset :
+* It is used to return the entire working document to last commited state.
+* It will discord all uncommited changes.
+        git reset -hard
