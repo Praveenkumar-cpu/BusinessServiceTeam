@@ -16,3 +16,5 @@ The benefits of having a clean history become tangible when performing Git opera
 A more real-world scenario would be:
 A bug is identified in the main branch.A feature that was working successfully is now broken.
 A developer examines the history of the main branch using git log because of the "clean history" the developer is quickly able to reason about the history of the project.
+command : git rebase master
+--> when you are switched to branch
