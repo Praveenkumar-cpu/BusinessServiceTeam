@@ -13,4 +13,3 @@ Reset :
 * It will discord all uncommited changes.
         git reset --hard head~1
         git reset --soft head~1
-        git reset --head~1
