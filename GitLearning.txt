@@ -11,4 +11,5 @@ Revert :
 Reset :
 * It is used to return the entire working document to last commited state.
 * It will discord all uncommited changes.
-        git reset -hard
+        git reset --hard head~1
+        git reset --soft head~1
