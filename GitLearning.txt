@@ -14,3 +14,11 @@ Reset :
         git reset --hard head~1
         git reset --soft head~1
         git reset --head~1
+
+write somthing about stash
+
+Git-Pull vs Git-Push -
+The git remote command is one piece of the broader system which is responsible for syncing changes. Records registered through the git remote command are used in conjunction with the git fetch, git push, and git pull commands.
+These commands all have their own syncing responsibilities which can be explored on the corresponding links.
+This is a small change in the txt file.git stat
+
