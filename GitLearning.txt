@@ -58,24 +58,18 @@ Conflicts will most likely happen when working in a team environment.
 
 Rebase-Rebasing is the process of moving or combining a sequence of commits to a new base commit.
 Rebasing is most useful and easily visualized in the context of a feature branching workflow.
-The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the main branch has progressed since you started working on a feature branch.
-You want to get the latest updates to the main branch in your feature branch, but you want to keep your branch's history clean so it appears as if you've been working off the latest main branch.
-This gives the later benefit of a clean merge of your feature branch back into the main branch.
-Why do we want to maintain a "clean history"? The benefits of having a clean history become tangible when performing Git operations to investigate the introduction of a regression.
-A more real-world scenario would be:
-A bug is identified in the main branch.
-A feature that was working successfully is now broken.
-A developer examines the history of the main branch using git log because of the "clean history" the developer is quickly able to reason about the history of the project.
-The developer can not identify when the bug was introduced using git log so the developer executes a git bisect.
-Because the git history is clean, git bisect has a refined set of commits to compare when looking for the regression.
-The developer quickly finds the commit that introduced the bug and is able to act accordingly.
 The primary reason for rebasing is to maintain a linear project history.
 For example, consider a situation where the main branch has progressed since you started working on a feature branch.
-You want to get the latest updates to the main branch in your feature branch, but you want to keep your branch's history clean so it appears as if you've been working off the latest main branch.
+You want to get the latest updates to the main branch in your feature branch, but you want to keep your branch's history clean
+so, it appears as if you've been working off the latest main branch.
 This gives the later benefit of a clean merge of your feature branch back into the main branch.
-
-write somthing about Merge-Conflict
-write somthe about stash 
+Why do we want to maintain a "clean history"?
+The benefits of having a clean history become tangible when performing Git operations to investigate the introduction of a regression.
+A more real-world scenario would be:
+A bug is identified in the main branch.A feature that was working successfully is now broken.
+A developer examines the history of the main branch using git log because of the "clean history" the developer is quickly able to reason about the history of the project.
+command : git rebase master
+--> when you are switched to branch
 
 Revert :
 * It is the git command used to delete the commited files changes by,
@@ -88,7 +82,6 @@ Reset :
         git reset --soft head~1
         git reset --head~1
 
-write somthing about stash
 
 Git-Pull vs Git-Push -
 The git remote command is one piece of the broader system which is responsible for syncing changes. Records registered through the git remote command are used in conjunction with the git fetch, git push, and git pull commands.
